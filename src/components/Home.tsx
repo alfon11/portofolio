@@ -20,9 +20,25 @@ const Home = () => {
           transformer les idées en réalité. <br />
           Contactez-moi si vous avez besoin de mes services.
         </p>
-        <a href="" className="btn btn-accent md:w-fit">
+        <a
+          href="mailto:ecofconde@gmail.com"
+          className="btn btn-accent md:w-fit"
+        >
           <Mail className="w-5 h-5" />
           Contactez-moi
+        </a>
+        <a
+          href="https://wa.me/224622353898"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-accent md:w-fit mt-2"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp Logo"
+            className="w-5 h-5 mr-2"
+          />
+          WhatsApp
         </a>
       </div>
       <div className="md:ml-60">

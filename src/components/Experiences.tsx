@@ -9,10 +9,14 @@ import imgNODE from "../assets/techno/node-js.png";
 import imgTYPE from "../assets/techno/typescript.svg";
 import imgTAILWIND from "../assets/techno/tailwind.png";
 import imgPRISMA from "../assets/techno/prisma.webp";
+import imgWORDPRESS from "../assets/techno/wordpress.png";
+import imgELEMENTOR from "../assets/techno/elementor.png";
+import imgSPRINGBOOT from "../assets/techno/springboot.png";
 
-import google from "../assets/companies/google.png";
-import meta from "../assets/companies/meta.webp";
-import amazon from "../assets/companies/amazon.png";
+import mepua from "../assets/companies/mepua.jpg";
+import ande from "../assets/companies/ande.jpg";
+import anien from "../assets/companies/anien.png";
+import mpten from "../assets/companies/mpten.png";
 
 const Experiences = () => {
   const skills = [
@@ -25,41 +29,69 @@ const Experiences = () => {
     { id: 7, name: "TypeScript", image: imgTYPE },
     { id: 8, name: "Next.js", image: imgNEXT },
     { id: 9, name: "Prisma", image: imgPRISMA },
+    { id: 10, name: "WordPress", image: imgWORDPRESS },
+    { id: 11, name: "Elementor", image: imgELEMENTOR },
+    { id: 12, name: "Spring Boot", image: imgSPRINGBOOT },
   ];
 
   const experiences = [
     {
       id: 1,
-      role: "Software Engineer",
-      company: "Google",
-      period: "Sep 2022 - Présent",
+      role: "Référent technique",
+      company: "MEPUA (Projet de connectivité des écoles)",
+      period: "Mars 2025 - Présent",
       description: [
-        "Développement de nouvelles fonctionnalités pour Google Maps.",
-        "Optimisation des performances de l'application.",
+        "Suivi de l’évolution des écoles connectées dans la région de Kindia.",
+        "Collaboration avec l’entreprise Mouna dans le cadre du projet GIGA.",
       ],
-      image: google,
+      image: mepua,
     },
     {
       id: 2,
-      role: "Fullstack Developer",
-      company: "Meta",
-      period: "Jan 2021 - Août 2022",
+      role: "Développeur Web",
+      company: "ANDE (Agence Nationale de Digitalisation de l’État)",
+      period: "Mars 2022 - Présent",
       description: [
-        "Création d'une plateforme interne de collaboration pour les équipes.",
-        "Mise en place d'une architecture scalable et optimisée.",
+        "Développement et maintenance de sites web institutionnels.",
+        "Contribution aux projets de digitalisation du gouvernement.",
       ],
-      image: meta,
+      image: ande,
     },
     {
       id: 3,
-      role: "Frontend Developer",
-      company: "Amazon",
-      period: "Mai 2019 - Déc 2020",
+      role: "Ingénieur Développeur",
+      company:
+        "ANIEN (Agence Nationale de l’Innovation et de l’Économie Numérique)",
+      period: "Sept 2020 - Jan 2022",
       description: [
-        "Développement d'une interface utilisateur pour Amazon Web Services.",
-        "Implémentation des tests unitaires et E2E.",
+        "Développement d’applications web et de systèmes internes.",
+        "Participation à la mise en place de solutions numériques innovantes.",
       ],
-      image: amazon,
+      image: anien,
+    },
+    {
+      id: 4,
+      role: "Ingénieur Informaticien",
+      company:
+        "MPTEN SMSI (Service Modernisation des Systèmes Informatiques) du Ministère de la Poste, des Télécommunications et de l’Économie Numérique",
+      period: "Jan 2020 - Sept 2022",
+      description: [
+        "Supervision du réseau informatique et assistance technique.",
+        "Participation à la modernisation des infrastructures numériques du ministère.",
+      ],
+      image: mpten,
+    },
+    {
+      id: 5,
+      role: "Coordinateur d’incubateur",
+      company:
+        "Gouv-Lab (Laboratoire d’innovation publique du Ministère de la Poste, des Télécommunications et de l’Économie Numérique)",
+      period: "Jan 2020 - Sept 2022",
+      description: [
+        "Coordination des activités TIC du laboratoire d’innovation gouvernementale.",
+        "Appui à la formation et à l’accompagnement des jeunes entrepreneurs.",
+      ],
+      image: anien,
     },
   ];
 
@@ -88,7 +120,7 @@ const Experiences = () => {
           {experiences.map((experience) => (
             <div
               key={experience.id}
-              className="flex flex-col bg-base-200 p-5 rounded-xl shadow-lg"
+              className="flex flex-col bg-base-300 p-5 rounded-xl shadow-lg"
             >
               <div className="flex items-center mb-2">
                 <img

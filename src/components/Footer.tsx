@@ -1,4 +1,4 @@
-import { Container, Facebook, Twitter, Youtube } from "lucide-react";
+import { Container, Facebook, LucideLinkedin, X, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,7 +19,14 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter className="w-6 h-6 text-current" />
+            <X className="w-6 h-6 text-current" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lancin%C3%A9-cond%C3%A9-a8552bab/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LucideLinkedin className="w-6 h-6 text-current" />
           </a>
           <a
             href="https://youtube.com"
@@ -29,7 +36,7 @@ const Footer = () => {
             <Youtube className="w-6 h-6 text-current" />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/alfon.conde"
             target="_blank"
             rel="noopener noreferrer"
           >

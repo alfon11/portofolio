@@ -1,6 +1,6 @@
 import Title from "./Title";
 import img from "../assets/profil.jpg";
-import { CalendarSync, LetterText, Paintbrush } from "lucide-react";
+import { CalendarSync, GlobeIcon, LetterText } from "lucide-react";
 
 const About = () => {
   const aboutSections = [
@@ -19,10 +19,10 @@ const About = () => {
     },
     {
       id: 3,
-      title: "Passionné par l'UI/UX",
+      title: "Passionné par le Web et la digitalisation",
       description:
-        "Créer des interfaces utilisateur attrayantes et fonctionnelles est ma priorité.",
-      icon: <Paintbrush className="text-accent scale-150" />,
+        "Créer des applications et site web modernes et performants est ma passion.",
+      icon: <GlobeIcon className="text-accent scale-150" />,
     },
   ];
 
