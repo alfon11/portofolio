@@ -16,8 +16,12 @@ const Home = () => {
           Développeur Full Stack passionné par la création d'expériences web
           innovantes et performantes <br />
           avec 8 ans d'expériences, utilisant les technologies modernes React{" "}
-          <br /> nextjs, angular, wordpress , springboot et nodejs pour
+          <br /> nextjs, angular, wordpress , Java, springboot et nodejs pour
           transformer les idées en réalité. <br />
+          Accredité AOS ( Accredited Operation Specialist) par Uptime institut.{" "}
+          <br />
+          Accredité Sustainable public procurement for school connectivity par
+          l'ITU. <br />
           Contactez-moi si vous avez besoin de mes services.
         </p>
         <a
